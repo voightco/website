@@ -13,6 +13,7 @@ body {
   place-content: center;
   height: 98vh;
   line-height: 1.6;
+  font-size: 1.2em;
 }
 
 main {
@@ -43,4 +44,50 @@ header span {
   display: inline-block;
   border-radius: 100%;
   margin-right: 0.3em;
+}
+
+section {
+  border-bottom: 2px dashed #1c1c1c;
+}
+
+a {
+  display: inline-block;
+  background: white;
+  color: black;
+  padding: 0 0.4em;
+  margin-bottom: 1em;
+  text-decoration: none;
+}
+
+article {
+  border: 2px dashed #1c1c1c;
+  padding: 1em;
+}
+
+article span {
+  font-size: 0.8em;
+}
+
+section div {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2em;
+}
+
+article ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+article li {
+  font-size: 0.8em;
+  background: #1c1c1c;
+  margin-right: 0.5em;
+}
+
+section small {
+  color: #484848;
 }
