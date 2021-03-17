@@ -13,7 +13,7 @@ body {
   place-content: center;
   height: 98vh;
   line-height: 1.6;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 main {
@@ -48,6 +48,13 @@ header span {
 
 section {
   border-bottom: 2px dashed #1c1c1c;
+}
+
+p a {
+  background: transparent;
+  text-decoration: underline;
+  color: white;
+  padding: 0;
 }
 
 a {
@@ -90,4 +97,15 @@ article li {
 
 section small {
   color: #484848;
+}
+
+h1 img {
+  width: 1.5em;
+  margin-right: 0.5em;
+
+}
+
+h1 {
+  display: flex;
+  align-items: center; 
 }
