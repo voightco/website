@@ -1,5 +1,5 @@
 {
-  "name": "Voightware Website",
+  "name": "voightware",
   "version": "1.0.0",
   "description": "Landing page for Voightware with some additional about text and ways to support Voightware.",
   "main": "index.js",
